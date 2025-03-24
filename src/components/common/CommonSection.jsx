@@ -28,7 +28,7 @@ const CommonSection = ({ description, sectionImage, bgImage, descriptionClass, t
                 </div>
             </div>
         </div >
-    
+    )
 }
 
 export default CommonSection

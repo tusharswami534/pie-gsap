@@ -22,7 +22,6 @@ const OpportunityOverview = () => {
                     scrub: 1,
                     pin: true,
                     animation: tl,
-                    markers: true
                 });
 
                 tl.to(".heading", {

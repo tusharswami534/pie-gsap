@@ -33,32 +33,6 @@ const HomePage = () => {
                     top: "0%",
                 }, 2)
             })
-            mm.add("(max-width: 1023.98px) and (min-width: 767.98px)", () => {
-                ScrollTrigger.create({
-                    trigger: ".sm-pin",
-                    start: "top top",
-                    end: "800% top",
-                    scrub: 1,
-                    pin: true,
-                    animation: tl,
-                });
-                tl.to(".pin-section", {
-                    yPercent: -80
-                })
-            })
-            mm.add("(max-width: 767.98px) ", () => {
-                ScrollTrigger.create({
-                    trigger: ".sm-pin",
-                    start: "top top",
-                    end: "800% top",
-                    scrub: 1,
-                    pin: true,
-                    animation: tl,
-                });
-                tl.to(".pin-section", {
-                    yPercent: -85
-                })
-            })
         }, componentRef);
         return () => ctx.revert();
     }, [])
@@ -66,9 +40,9 @@ const HomePage = () => {
         <div ref={componentRef}>
             <div className='lg:px-4 sm-pin max-[1023px]:h-screen max-[1023px]:overflow-hidden' >
                 <div className='pin-section min-h-screen relative max-xl:px-4 overflow-hidden'>
-                    <CommonSection sectionImage={'/assets/image/first-section-image.png'} bgImage={'bg-[url("/assets/image/first-section-bg-image.png")]'} sectionClass={'section-one lg:absolute left-1/2 lg:-translate-x-1/2 w-full'} titleOne={'Real Time Tax'} description={Real_Time_Description} descriptionTwo={Real_Time_DescriptionTwo} descriptionThree={Real_Time_DescriptionThree} descriptionFour={Real_Time_DescriptionFour} titleTwo={'Live tracking of the tax return'} secondDescription={Live_Tracking_Description} />
-                    <CommonSection sectionImage={'/assets/image/second-section-image.png'} bgImage={'bg-[url("/assets/image/second-section-bg-image.png")]'} sectionClass={'section-two lg:absolute left-1/2 top-full lg:-translate-x-1/2 w-full'} titleOne={'Multiple Incomes in one place'} dataClass={'!bg-purple'} titleClass={'!text-gray'} descriptionClass={'!text-white'} description={Multiple_Income_Description} descriptionTwo={Multiple_Income_Description_Two} descriptionThree={Multiple_Income_Description_Three} titleTwo={'Live tax admin support'} secondDescription={Live_Tax_Blue_Description} secondDescriptionTwo={Live_Tax_Blue_Description_Two} secondDescriptionThree={Live_Tax_Blue_Description_Three} />
-                    <CommonSection sectionImage={'/assets/image/third-section-image.png'} bgImage={'bg-[url("/assets/image/third-section-bg-image.png")]'} sectionClass={'section-three lg:absolute left-1/2 top-full lg:-translate-x-1/2 w-full'} titleOne={'Bookkeeping'} dataClass={'!bg-pink'} description={Bookkeeping_Description} descriptionTwo={Bookkeeping_Description_Two} titleTwo={'Live tax admin support'} secondDescription={Live_Tax_Pink_Description} secondDescriptionTwo={Live_Tax_Pink_Description_Two} secondDescriptionThree={Live_Tax_Pink_Description_Three} />
+                    <CommonSection sectionImage={'/assets/image/first-section-image.png'} bgImage={'bg-[url("/assets/image/first-section-bg-image.png")]'} sectionClass={'section-one lg:absolute left-1/2 lg:-translate-x-1/2 w-full'} titleOne={'Real Time Tax'} description={Real_Time_Description} descriptionTwo={Real_Time_DescriptionTwo} titleTwo={'Live tracking of the tax return'} secondDescription={Live_Tracking_Description} />
+                    <CommonSection sectionImage={'/assets/image/second-section-image.png'} bgImage={'bg-[url("/assets/image/second-section-bg-image.png")]'} sectionClass={'section-two lg:absolute left-1/2 top-full lg:-translate-x-1/2 w-full'} titleOne={'Multiple Incomes in one place'} dataClass={'!bg-purple'} titleClass={'!text-gray'} descriptionClass={'!text-white'} description={Multiple_Income_Description} descriptionTwo={Multiple_Income_Description_Two} descriptionThree={Multiple_Income_Description_Three} titleTwo={'Live tax admin support'} secondDescription={Live_Tax_Blue_Description} />
+                    <CommonSection sectionImage={'/assets/image/third-section-image.png'} bgImage={'bg-[url("/assets/image/third-section-bg-image.png")]'} sectionClass={'section-three lg:absolute left-1/2 top-full lg:-translate-x-1/2 w-full'} titleOne={'Bookkeeping'} dataClass={'!bg-pink'} description={Bookkeeping_Description} descriptionTwo={Bookkeeping_Description_Two} titleTwo={'Live tax admin support'} secondDescription={Live_Tax_Pink_Description} secondDescriptionTwo={Live_Tax_Pink_Description_Two} />
                     <CommonSection sectionImage={'/assets/image/fourth-section-image.png'} bgImage={'bg-[url("/assets/image/fourth-section-bg-image.png")]'} sectionClass={'section-four lg:absolute left-1/2 top-full lg:-translate-x-1/2 w-full'} titleOne={'Invoicing'} dataClass={'!bg-blue'} titleClass={'!text-gray'} descriptionClass={'!text-white'} description={Invoicing} titleTwo={'Insights on your income'} secondDescription={Insight_Description} />
                 </div>
             </div>

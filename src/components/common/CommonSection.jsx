@@ -22,13 +22,13 @@ const CommonSection = ({ description, sectionImage, bgImage, descriptionClass, t
                             {secondDescriptionFour && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{secondDescriptionFour}</p>}
                         </div>
                     </div>
-                    <div className={` min-h-[735px] max-xl:min-h-[674px] max-lg:min-h-[unset] max-lg:py-3 rounded-2xl max-xl:px-4 bg-cover max-w-[603px] w-full h-full flex justify-center items-center ${bgImage}`}>
+                    <div className={` min-h-[735px] max-lg:max-w-[unset] max-xl:min-h-[674px] max-lg:min-h-[unset] max-lg:py-3 rounded-2xl max-xl:px-4 bg-cover max-w-[603px] w-full h-full flex justify-center items-center ${bgImage}`}>
                         <Image src={sectionImage} width={523} height={482} alt='mobile image' className='max-lg:h-[350px] max-lg:object-contain' />
                     </div>
                 </div>
             </div>
         </div >
-    )
+    
 }
 
 export default CommonSection

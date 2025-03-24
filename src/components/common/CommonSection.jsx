@@ -12,14 +12,12 @@ const CommonSection = ({ description, sectionImage, bgImage, descriptionClass, t
                             <p className={`leading-[150%] text-light-black ${descriptionClass}`}>{description}</p>
                             {descriptionTwo && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{descriptionTwo}</p>}
                             {descriptionThree && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{descriptionThree}</p>}
-                            {descriptionFour && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{descriptionFour}</p>}
                         </div>
                         <h2 className={`text-[26px] max-xl:text-xl text-light-black font-semibold ${titleClass}`}>{titleTwo}</h2>
                         <div className='flex gap-2 max-xl:gap-1 flex-col'>
                             <p className={`leading-[150%] text-light-black ${descriptionClass}`}>{secondDescription}</p>
                             {secondDescriptionTwo && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{secondDescriptionTwo}</p>}
                             {secondDescriptionThree && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{secondDescriptionThree}</p>}
-                            {secondDescriptionFour && <p className={`leading-[150%] max-xl:text-sm text-light-black ${descriptionClass}`}>{secondDescriptionFour}</p>}
                         </div>
                     </div>
                     <div className={`max-lg:max-w-[unset] min-h-[600px] max-lg:min-h-[unset] max-lg:py-3 rounded-2xl max-xl:px-4 bg-cover max-w-[603px] w-full h-full flex justify-center items-center ${bgImage}`}>

@@ -3,10 +3,6 @@ export const Real_Time_Description =
 
 export const Real_Time_DescriptionTwo =
   "All incoming and outgoing transactions will be updated in real time, along with any deductions or credits, which means users will have the most up to date figure every time they open the app.";
-
-export const Real_Time_DescriptionThree =
-  "For most people their tax bill can be their biggest outgoing. Waiting up to 20 months from the point of income to finding out the final tax bill can make things hard to plan";
-
 export const Real_Time_DescriptionFour =
   "And with HMRC’s Making Tax Digital initiative, businesses will soon be required to report their income every quarter - making up to date record keeping a necessity";
 
@@ -42,9 +38,6 @@ export const Live_Tax_Pink_Description =
 
 export const Live_Tax_Pink_Description_Two =
   "Because Pie is a registered tax agent with HMRC, it will be able to send off your self-assessments directly to HMRC without needing to leave or download the data outside of the app.";
-
-export const Live_Tax_Pink_Description_Three =
-  "Users will also have the option to pay a £59 checking fee to have their return reviewed and checked by tax assistants, that will have been trained and certified by our in house CIMA qualified accountancy practice.";
 
 export const Invoicing =
   "Pie will allow users to send digital invoices to their customers, on the go. There will be one place to manage all clients and invoicing, allowing them to run their business whilst getting paid faster. Invoice payments will be trackable with automated payment reminders to debtors. This section will also allow users to view monthly revenue and track year on year changes";
